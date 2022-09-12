@@ -1,0 +1,37 @@
+body{
+    background:  url('../image/pattern.svg') no-repeat fixed;
+     
+    }
+  .result_table{
+      padding-top: 3cm;
+      padding-left: 9cm;
+      
+  }
+  h1{
+      color:black
+  }
+  .sbutton {
+    border-radius: 20px;
+    border: 0px solid #207dff;
+    background-color: #207dff;
+    color: #eeeeeed6;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 15px 44px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    display: flex;
+    width: 190px;
+    margin: 50px auto;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+     
+    }
+   
+    
+  .sbutton:hover{
+      background-color: #ed2d07;
+  }
+  
+  

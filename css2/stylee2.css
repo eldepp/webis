@@ -1,0 +1,104 @@
+body{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	height: 90vh;
+	background:  url('../image/pattern.svg') no-repeat fixed;
+	position: relative;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profile-box{
+    background: #ff574a;
+    text-align: center;
+    padding: 40px 90px;
+    color: #fff;
+    position: relative;
+    border: 20px;
+    margin-top: 87px;
+
+}
+
+.menu-icon{
+    width: 25px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+
+}
+.setting{
+    width: 25px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+
+}
+.profile-pic{
+    width: 15px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 6px;
+    margin-top: 40px;
+}
+.profile-button{
+    background: #fff;
+    color: #999;
+    padding: 60px 0;
+    margin-right: -90px;
+    margin-left: -90px;
+    margin-bottom: -40px;
+    border-radius: 20px;
+
+}
+
+.profile-button img{
+   width: 15px; 
+   margin-top: 15px;
+   cursor: pointer;
+}
+.profile-box button{
+    background: #fff;
+    color: #ff574a;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(244, 67, 54, 0.5);
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.5s;
+
+}
+.profile-box button:hover{
+    background-color: #2a2480;
+}
+.profile-box h3{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.social-media img{
+    width: 20px; 
+    margin: 30px 50px;
+    cursor: pointer;
+}
+.logbutn a
+{
+ text-decoration: none;
+ color: black;
+}
+.logbutn a:hover{
+    color: #fff;
+}
